@@ -8,3 +8,7 @@ body {
     font-size: 80px;
     color:aquamarine;
 }
+
+.blinn-fa-container {
+    background-color: Var(--secondaryColor) !important;
+}
