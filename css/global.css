@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+
 /* Colors */
 
 /*
@@ -16,5 +18,8 @@
 
             /* Var(--accentColor) !important;*/
     --accentColor: #DF93BA; 
+
+     /* Var(--fontFamily) !important;*/
+     --fontFamily: "Indie Flower", serif;
 
 }
