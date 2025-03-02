@@ -2,5 +2,5 @@ h1, h2 {
     color: Var(--primaryColor) !important;
 }
 .navbar {
-    background-color: red; !important;
+background-color: red; !important
 }
