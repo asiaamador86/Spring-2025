@@ -9,4 +9,5 @@ background-color:white !important;
 .blinn-footer-container {
 
     background-color:Var(--primaryColor) !important;
+    padding: 40px;
 }
