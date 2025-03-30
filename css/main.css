@@ -2,5 +2,11 @@ h1, h2 {
     color: Var(--primaryColor) !important;
 }
 .navbar {
-background-color: #fffff !important;
+background-color:white !important;
+}
+
+
+.blinn-footer-container {
+
+    background-color:Var(--primaryColor) !important;
 }
