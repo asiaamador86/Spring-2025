@@ -8,6 +8,7 @@ background-color:white !important;
 
 .blinn-footer-container {
 
-    background-color:Var(--primaryColor) !important;
+    background-color:Var(--secondaryColor) !important;
     padding: 40px;
+    color: white;
 }
