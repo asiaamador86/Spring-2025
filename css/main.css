@@ -24,13 +24,24 @@ blockquote {
     color: Var(--accentColor) !important;
 }
 
-.blockquote::before {
+blockquote::before {
 display: Block;
 padding-left: 10px;
-font size: 80px;
+font-size: 80px;
 position: absolute;
 left: -20px;
 top: -20px;
 color: Var(--accentColor) !important;
 content: "\201c";
+}
+
+blockquote cite {
+    color: Var(--secondaryColor) !important;
+    font-size: 14px;
+    display: block;
+    margin-top: 5px;
+}
+
+blockqoute cite::before {
+    content: "\2014 \2009";
 }
