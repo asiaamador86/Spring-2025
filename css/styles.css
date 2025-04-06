@@ -33,5 +33,5 @@ p {
     width: 100%;
     height: 280px;
     background-color: Var(--secondaryColor) !important;
-    clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+    clip-path: polygon(0% 0%, 100% 0%, 100% 23%, 75% 23%, 84% 42%, 48% 24%, 0 24%);
 }
