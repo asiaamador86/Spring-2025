@@ -9,6 +9,12 @@ p {
     color:aquamarine;
 }
 
+
+.blinn-fa-icon a {
+    color:white !important
+}
+
+
 .blinn-fa-container {
     background-color: Var(--secondaryColor) !important;
     padding: 50px;
