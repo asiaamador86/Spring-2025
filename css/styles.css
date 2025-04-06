@@ -10,7 +10,7 @@ p {
 }
 
 
-.blinn-fa-icon a {
+.blinn-fa-container a {
     color:white !important
 }
 
@@ -29,7 +29,7 @@ p {
     padding-left: 15px;
 }
 
-#custom-clip-path {
+#custom-clip-path { 
     width: 100%;
     height: 280px;
     background-color: Var(--secondaryColor) !important;
