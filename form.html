@@ -35,6 +35,47 @@
               <label for="first-name">first Name</label>
               <input type="text" id="first-name" name="firstName" />
             </div>
+            <!-- last name -->
+            <div>
+              <label for="last-name">last Name</label>
+              <input type="text" id="last-name" name="lastName" />
+            </div>
+            <!-- age - number -->
+            <div>
+              <lable for="age"> Age </lable>
+              <input type="number" name="age" id="age" min="18" max="120" />
+            </div>
+            <!-- email - email -->
+            <div>
+              <lable for="email">Email</lable>
+              <input type="email" name="email" />
+            </div>
+            <!-- phone -->
+            <div>
+              <label for="phone">Phone</label>
+              <input type="text" name="phone" placeholder="(###) ###-####" />
+            </div>
+            <!-- Start date - date -->
+            <div>
+              <label for="start-date">Start Date</label>
+              <input type="date" name="startDate" required />
+            </div>
+
+            <!-- T-shirt sellect field-->
+            <div>
+              <label for="T-shirt">T-shirt size</label>
+              <select id="T-shirt" required>
+                <option value="">Select T-shirt size</option>
+                <option value="xxs">xxs</option>
+                <option value="xs">xs</option>
+                <option value="s">s</option>
+                <option value="m">m</option>
+                <option value="l">l</option>
+                <option value="xl">xl</option>
+                <option value="xxl">xxl</option>
+              </select>
+              <input type="text" name="custom" placeholder="Please input a custom size" disabled />
+            </div>
 
             <!-- submit button -->
 
@@ -63,6 +104,9 @@
 
       <!-- local js file with footer -->
       <script src="components/js/footer.js"></script>
+
+      <!-- local js file for form -->
+      <script src="/js/form.js"></script>
     </section>
   </body>
 </html>
